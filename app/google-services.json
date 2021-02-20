@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928123459253",
+    "project_id": "harmony-f5efd",
+    "storage_bucket": "harmony-f5efd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928123459253:android:767808398127f3c729d0fc",
+        "android_client_info": {
+          "package_name": "com.example.harmonylogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928123459253-6h97ohk0ra386t33i4l99aav7pnk8pnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm6aCg1WYJjmvAC7d--NCmwqmR1pYrCg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928123459253-6h97ohk0ra386t33i4l99aav7pnk8pnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
