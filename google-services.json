@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1025652297657",
+    "project_id": "heartmony-e2232",
+    "storage_bucket": "heartmony-e2232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025652297657:android:a676b2e800ac30552eb068",
+        "android_client_info": {
+          "package_name": "com.example.heartmony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025652297657-tu2f95iajtr0e1u79mf68cdqfpfp4l5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heartmony",
+            "certificate_hash": "ca82e2adeba497f8ae1bf2742f0868c6b40787d6"
+          }
+        },
+        {
+          "client_id": "1025652297657-mribbpa59spst2h8eq02hk72j5h8hj33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnB8ce0C7yRaECmOuPD66TLrm51Bw-oeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025652297657-mribbpa59spst2h8eq02hk72j5h8hj33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
