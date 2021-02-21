@@ -59,19 +59,19 @@ public class home extends AppCompatActivity {
         entries.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("11").getKey()), 65));
         entries.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("12").getKey()), 62));
 
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("6").getKey()), 54));
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("7").getKey()), 70));
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("8").getKey()), 60));
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("9").getKey()), 95));
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("10").getKey()), 67));
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("11").getKey()), 54));
-        entries2.add(new Entry(Float.parseFloat(myRef.child("hourlyHeartRate").child("12").getKey()), 45));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("6").getKey()), 54));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("7").getKey()), 70));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("8").getKey()), 60));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("9").getKey()), 95));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("10").getKey()), 67));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("11").getKey()), 54));
+        entries2.add(new Entry(Float.parseFloat(myRef2.child("hourlyHeartRate").child("12").getKey()), 45));
 
 
         LineDataSet dataSet1 = new LineDataSet(entries, "Heart Rate (self)");
         LineData lineData = new LineData(dataSet1);
         LineDataSet dataSet2 = new LineDataSet(entries2, "Heart Rate (friend)");
-        dataSet2.setColor(Color.rgb(255, 255, 83));
+        dataSet2.setColor(Color.rgb(139, 69, 19));
         lineData.addDataSet(dataSet2);
         chart.setData(lineData);
         chart.invalidate();
