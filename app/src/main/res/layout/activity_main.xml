@@ -4,22 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Heart_Rate_Harmony"
+    android:background="@drawable/login"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="199dp"
-        android:layout_height="67dp"
+        android:id="@+id/logInButton"
+        android:layout_width="212dp"
+        android:layout_height="73dp"
         android:background="@android:drawable/list_selector_background"
         android:text="Log In"
         app:backgroundTint="@color/material_on_primary_disabled"
         app:backgroundTintMode="screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838" />
+        app:layout_constraintVertical_bias="0.846" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
